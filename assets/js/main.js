@@ -8,7 +8,7 @@ function shortUrl(){
 function getData(){
 	var url = document.getElementById("shorturl").value;
 	var xhr = new XMLHttpRequest();
-	xhr.open("POST", "https://tinyurl123.herokuapp.com/generate" + url, false);
+	xhr.open("POST", "https://tinyurl123.herokuapp.com/generate", false);
 	xhr.setRequestHeader("Content-Type", "application/json");
 	//xhr.setRequestHeader("Access-Control-Allow-Origin" , "*");
 	xhr.onreadystatechange = function () {
