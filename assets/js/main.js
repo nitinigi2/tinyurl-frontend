@@ -16,3 +16,7 @@ function shortUrl(){
 	var data = JSON.stringify({"url": longurl});
 	xhr.send(data);
 }
+
+function sendMessage(){
+	alert("Message sent successfully.");
+}
